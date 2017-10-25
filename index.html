@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>shopping-site</title>
+        <meta name="description" content="雑貨のオンラインショップAPPLEBERRYです。">
+        <meta name="keywords" content="雑貨,ナチュラル,シャビー">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        
+         <link rel="stylesheet" href="css/skeleton.css">
+         <link rel="stylesheet" href="css/shopping.css">
+    
+        
+     <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        
+         <!-- Owl Carouselを動作させるために追加 -->
+        <script src="test-carousel.js"></script>
+         <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+        
+<body>
+
+   <header> 
+       <div class="row">
+      <div id="nav" class="container">
+
+           <div class="twelve columns">
+               <div class="sp_main-nav">
+               <nav> 
+                <a href="index.html" class="logo"><img class="u-max-full-width" src="images/top/logo.png" alt="APPLE BERRY" ></a>
+                <a href="#" class="fb"><img class="u-max-full-width" src="images/top_sp/fb.png" alt="sp_fb_navi" srcset="images/top_sp/fb@2x.png 2x"></a>
+                <a href="#" class="insta"><img class="u-max-full-width" src="images/top_sp/insta.png" alt="sp_insta_navi" srcset="images/top_sp/insta@2x.png 2x"></a>
+               <img id="sp_navi_btn" class="u-max-full-width" src="images/top_sp/menu_icon.png" alt="sp_main_navi" srcset="images/top_sp/menu_icon@2x.png 2x">    
+                <ul class="sp_main-li">
+                <li><a href="#"><img src="images/top/menu_login.png"></a></li>
+                <li><a href="#"><img src="images/top/menu_cart.png"></a></li>
+                <li><a href="#"><img src="images/top/menu_mypage.png"></a></li>
+                <li><a href="#"><img src="images/top/menu_guide.png"></a></li>
+                </ul>
+            </nav>
+              
+            </div>
+            <!-- "sp_main-navi" -->
+            
+            <nav class="pc-nav">
+              <ul class="main-nav"> 
+                <li><a href="index.html" class="logo"><img class="u-max-full-width" src="images/top/logo.png" alt="APPLE BERRY" ></a></li>
+                <li><a href="#"><img src="images/top/menu_login.png"></a></li>
+                <li><a href="#"><img src="images/top/menu_cart.png"></a></li>
+                <li><a href="#"><img src="images/top/menu_mypage.png"></a></li>
+                <li><a href="#"><img src="images/top/menu_guide.png"></a></li>
+                <li><a href="#"><img src="images/top/facebook.png"></a></li>
+                <li><a href="#"><img src="images/top/insta.png"></a></li>
+                </ul>
+            </nav>
+            <!-- "pc-nav" -->
+         </div>
+         <!-- "columns" -->
+         </div>
+           <!-- "container" -->
+           </div>
+           <!-- "row" -->
+   </header>
+   
+   <div id="main" class="container">
+       
+      <div class="row">
+          
+      <div class="nine columns">     
+     
+    <div class="carusel">
+     
+   <!-- Set up your HTML -->
+        <div class="owl-carousel owl-theme">
+            <div> <img class="u-max-full-width" src="images/top/ca_banner.jpg"></div>
+            <div> <img class="u-max-full-width" src="images/top/ca_banner.jpg"></div>
+            <div> <img class="u-max-full-width" src="images/top/ca_banner.jpg"></div>  
+            <div> <img class="u-max-full-width" src="images/top/ca_banner.jpg"></div>
+        </div>
+        
+     <script>
+        $(document).ready(function(){
+        $('.owl-carousel').owlCarousel(
+        {
+            loop: true,
+            nav: false,
+            dots: true,
+            items: 1,
+            autoplay: true
+        }
+    );
+});
+     </script>
+      </div>
+      <!-- carousel -->
+   　　<div class="sp_newitems">
+   　　<img class="u-max-full-width" src="images/top_sp/title_new_item.png" alt="sp_newitems" srcset="images/top_sp/title_new_item@2x.png 2x">
+   　</div>
+   　
+   　<div class="newitems">
+   　    <img class="u-max-full-width" src="images/top/title_newitems.png" >
+        </div>
+            
+      
+       
+     <div class="photo-newitems">
+         
+        <div class="item">
+             <img src="images/top/item_01.jpg" > 
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>   
+        </div>
+
+         <div class="item">
+            <img src="images/top/item_02.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>   
+         </div>
+
+       
+         <div class="item">
+            <img src="images/top/item_03.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>   
+         </div>
+
+        
+       
+         <div class="item">
+            <img src="images/top/item_04.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>   
+         </div>
+
+       
+       
+         <div class="item">
+            <img src="images/top/item_05.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>   
+         </div>
+
+      
+       
+         <div class="item">
+            <img src="images/top/item_06.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>   
+         </div>
+
+    </div>
+    <!-- "phote-newsitems" -->
+    
+ 　<div class="sp_popularitems">
+   　　<img class="u-max-full-width" src="images/top_sp/title_popular_item.png" alt="populaitems" srcset="images/top_sp/title_popular@2x.png 2x">
+   　</div>
+   　
+  <div class="popular-items"> 
+  <img class="u-max-full-width" src="images/top/title_popular.png" >
+  </div>
+       
+   <div class="photo-popular">
+       
+        <div class="item">
+            <img src="images/top/item_07.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>
+        </div>    
+        
+        <div class="item">
+            <img src="images/top/item_08.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>
+        </div>       
+        
+        <div class="item">
+            <img src="images/top/item_09.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>
+        </div>    
+         
+        <div class="item">
+            <img src="images/top/item_10.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>
+        </div>       
+        
+        <div class="item">
+            <img src="images/top/item_11.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>
+        </div>       
+        
+        
+        <div class="item">
+            <img src="images/top/item_12.jpg" >
+            <p>商品名が入ります商品名が入ります商品名が入ります</p>
+            <p> ¥10,000(tax in) </p>
+        </div> 
+        
+       </div>
+       <!-- div class"phote" -->
+    <div class="sp-guide-title">
+   　　<img class="u-max-full-width" src="images/top_sp/title_guide.png" alt="guidetitle" srcset="images/top_sp/title_guide@2x.png 2x">
+   　</div>
+   　
+        <div class= "guide-title">
+         <img class="u-max-full-width" src="images/top/title_guide.png" >
+        </div>
+        
+      <div class="guide"> 
+      
+        <div class="otodoke">
+        <h2 class="otodoke-title">お届けについて</h2>
+        <img src="images/top/otodoke_banner.png">
+        <h3>■〇〇運輸</h3>
+        <p>送料  ￥000</p>
+        <h3>■ゆうパケット</h3>
+        <p>ポスト投函となります。日時指定付加</p>
+        </div>
+        
+        <div class="kessai">
+        <h2 class="kessai-title">決済について</h2>
+        <h3>■カード決済</h3>
+        <img src="images/top/cards.png">
+        <h3>■代引引換</h3>
+        <p>代引き手数料は別途かかります。</p>
+        <h3>■銀行振替</h3>
+        <p>お振込手数料お客様負担。<br>ご入金後の発送となります。</p>
+        </div>
+        
+    </div>
+    <!-- "guide" --> 
+    
+    </div>
+    <!-- "columns" -->
+    
+   <div class="three columns">  
+   <div id="sidebar">
+     
+                
+      <div class="search">
+         <img class="u-max-full-width" src="images/top/itemsearch.png">
+         <input type="text" class="search-text" placeholder="Search..">
+     </div>
+           
+        <div class="pagelink">
+          <img class="u-max-full-width" src="images/top/pagelink.png">
+          </div>
+          
+        <div class="categorie">
+          <img class="u-max-full-width" src="images/top/categories.png">
+          </div>
+          
+        <div class="categorie-name">
+            <ul>
+              <li>カテゴリー名</li>
+               <li>カテゴリー名</li>
+                <li>カテゴリー名</li>
+                 <li>カテゴリー名</li>
+                  <li>カテゴリー名</li>
+                   <li>カテゴリー名</li>
+                   </ul>
+        </div>
+        
+          <div class="title-about">
+          <img class="u-max-full-width" src="images/top/about.png">
+          </div>
+          
+           <div class="about">
+          <div class="about-img">
+          <img class="u-max-full-width" src="images/top/about_img.jpg">
+          </div>
+          
+          <div class="about-text">
+             <ul>
+            <li>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店説明</li>
+            </ul>
+          <div class="more">
+             <img class="u-max-full-width more" src="images/top/more_btn.png"> 
+          </div>
+          <!-- "more" -->
+          </div>
+          <!-- "text" -->
+          </div>
+          <!-- "about" -->
+        
+          <div class="title-info">
+          <img class="u-max-full-width" src="images/top/shop_info.png">
+          </div>
+         
+          <div class="info">
+          <div class="info-img">
+          <img class="u-max-full-width" src="images/top/shopinfo_img.jpg">
+          </div>
+          <div class="info-text">
+          <ul>
+          <li>実店舗の説明実店舗の説明実店舗の説明実店舗の説明実店舗の説明</li>
+          <li>OPEN 11:00-18:00</li>
+          <li>〒000-0000</li>
+          <li>京都府〇〇〇〇〇〇〇00-00</li>
+          </ul>
+          
+          <div class="more">
+          <img class="u-max-full-width more" src="images/top/more_btn.png"> 
+          </div> 
+          
+          </div>
+         </div>
+         <!-- "info" -->
+         </div>
+           <!-- "sidebar" -->
+       </div>
+           <!-- "column" -->
+           
+    </div>
+    <!-- "row" -->
+     </div>
+           <!-- "container" -->
+
+        <footer>
+      <div id="footer" class="container">
+         <div class="row">
+           <div class="twelve columns">
+               <div class="pagetop">
+            <img class="u-max-full-width" src="images/top/pagetop.png"> 
+            </div>
+            <ul>
+            <li>特定商取引に関する表記　・　プライバシーポリシー　・　マイページ"</li>
+            </ul>
+                <p>copyright(C)APPLE BERRY all rights reserved.</p>
+          </div>
+           <!-- "columns" -->
+       </div>
+       <!-- "row" --> 
+     </div>
+     <!-- "container" -->
+    </footer>
+    
+<script>
+  $(function(){
+    $(document).ready(function(){
+      $("#sp_navi_btn").click(function () {
+        $(this).next().slideToggle();
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
